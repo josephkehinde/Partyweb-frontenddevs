@@ -1,10 +1,14 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
-    "./src/**/*.{html,js,ts,tsx}",
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
+      colors: {
+        'regal-blue':'rgb(14, 14, 36)'
+      },
       fontFamily: {
         Playfair: ["Playfair Display", "serif"],
         Inter: ["Inter", "sans-serif"],
@@ -14,4 +18,3 @@ module.exports = {
   },
   plugins: [],
 }
-
