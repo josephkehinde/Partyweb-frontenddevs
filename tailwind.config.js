@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        'regal-blue':'rgb(14, 14, 36)'
+      },
       fontFamily: {
         Playfair: ["Playfair Display", "serif"],
         Inter: ["Inter", "sans-serif"],
@@ -15,4 +18,3 @@ export default {
   },
   plugins: [],
 }
-
