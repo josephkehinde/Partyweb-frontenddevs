@@ -14,6 +14,11 @@ export default {
         Inter: ["Inter", "sans-serif"],
         Lato: ["Lato", "sans-serif"],
       },
+      screens: {
+        'below-sm': {'max': '640px'},
+        'mobile': {'max': '480px'},
+
+      },
     },
   },
   plugins: [],
